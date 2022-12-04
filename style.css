@@ -1,0 +1,105 @@
+html {
+    background-color: #212529;
+    font-family: 'Raleway', sans-serif, thin;
+    font-size: medium;
+  }
+  
+  h1 {
+    text-align: left;
+    
+  }
+  
+  img {
+    margin-left: 100px;
+    max-height: 450px;
+    border-radius: 300px;
+  
+  }
+
+  
+  p {
+   
+    font-size: 155%;
+    font-family: 'Raleway', sans-serif, thin;
+    font-weight: 150;
+
+    line-height: 2;
+    
+  }
+
+  body {
+
+    background-color: #212529;
+  }
+
+  #name {
+    font-size:4.0rem;
+    font-weight: 200;
+  }
+
+  #nameSean:hover {
+    font-size: 210%;
+    color: rgb(234, 241, 192);
+  }
+
+#tech {
+    align-items: center;
+    font-size: 155%;
+    font-family: 'Raleway', sans-serif, thin;
+    font-weight: bold;
+
+}
+
+#rowTwo {
+    font-weight: 150;
+    color: #b3b3b3;
+}
+
+#skills:hover {
+   
+    border-radius: 20px;
+    background-color: #363d44;
+}
+
+#soft:hover {
+    border-radius: 20px;
+    background-color: #363d44;
+}
+
+#hobbies:hover {
+
+    border-radius: 20px;
+    background-color: #363d44;
+}
+
+#infoSkills:hover {
+    border-radius: 20px;
+    background-color: #363d44;
+}
+
+#infoSoft:hover {
+    border-radius: 20px;
+    background-color: #363d44;
+}
+
+#infoHobbies:hover {
+    border-radius: 20px;
+    background-color: #363d44;
+}
+
+#home:hover {
+    color: rgb(217, 255, 0);
+}
+#resume:hover{
+    color: rgb(217, 255, 0);
+}
+#gallery:hover {
+    color: rgb(217, 255, 0);
+}
+#contact {
+    color: rgb(217, 255, 0);
+}
+
+#navbarNav {
+    color: rgb(217, 255, 0);
+}
