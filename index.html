@@ -1,99 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Lesson 10 Final</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/3fXf3s9.png">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- Link to CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Link to CSS file-->
     <link href="style.css" rel="stylesheet">
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </head>
+</head>
 
-  <body>
-   
+<body>
+
     <nav class="navbar navbar-expand-lg navbar text-bg-dark p-3 ">
-      <div class="container-fluid">
+        <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">
-            <img src="https://i.imgur.com/3fXf3s9.png" alt="logo" width="75" height="75">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-   
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active text-white" id="home" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id="resume" href="#">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id ="gallery" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" id = "contact" href="#">Contact</a>
-            </li>
-          </ul>
+            <a class="navbar-brand text-white table-hover" href="#">
+                <img src="https://i.imgur.com/3fXf3s9.png" alt="logo" width="75" height="75">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" id="home" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" id="resume" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" id="gallery" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" id="contact" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    
+
     <div class="container text-bg-dark">
 
 
-    <h2 id = "nameSean">Sean L. Holmes</h2>
-    <i>UI / UX Designer</i>
-      <div class="row text-bg-dark p-3">
-        <p class="col-12 col-sm-12 col-md-12 col-lg-6 col-xxl-6 text-bg-dark">
-    
-          <br>Experienced in over 15 years running Castwave Studios as a CEO and founder,  <I>Sean Holmes</I> has dedicated himself to the visual and audio arts. He always has had a passion for technology. In addition to building computers, he also has designed websites, logos, and even created promos in audio and video formats.  Currently, Sean is a student at Bethel Tech, learning the unique and fascinating of UX/UI design. 
-        </p>
 
-
-      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xxl-6 text-bg-dark">
-          <img class="img-fluid" src="https://i.imgur.com/56oowtO.jpg">
+        <div>
+            <h2 id="nameSean">Sean L. Holmes</h2>
         </div>
-      </div>
+        <h6 id="title"><i>UI / UX Designer</i></h6>
 
-      <br>
-      <hr>
-      <br>
+        <div class="row text-bg-dark p-3">
+            <p class="col-12 col-sm-12 col-md-12 col-lg-6 col-xxl-6 text-bg-dark">
 
-      <div class="container" id="tech">
-        <div class="row">
-          <div class="col-sm" id="skills">
-            Technical Skills
-          </div>
-          <div class="col-sm" id="soft">
-            Soft Skills
-          </div>
-          <div class="col-sm" id="hobbies">
-            Hobbies
-          </div>
+                <br>Experienced in over 15 years running Castwave Studios as a CEO and founder, <I>Sean Holmes</I> has
+                dedicated himself to the visual and audio arts. He always has had a passion for technology. In addition
+                to building computers, he also has designed websites, logos, and even created promos in audio and video
+                formats. Currently, Sean is a student at Bethel Tech, learning the unique and fascinating of UX/UI
+                design.
+            </p>
+
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xxl-6 text-bg-dark">
+                <img class="img-fluid" src="https://i.imgur.com/56oowtO.jpg">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="container" id="tech">
+        <div class="row" id>
+            <div class="col-sm text-white" id="skills">
+                Technical Skills
+            </div>
+            <div class="col-sm text-white" id="soft">
+                Soft Skills
+            </div>
+            <div class="col-sm text-white" id="hobbies">
+                Hobbies
+            </div>
         </div>
         <div class="row" id="rowTwo">
-            <div class="col-sm" id = "infoSkills">
+            <div class="col-sm" id="skills">
                 Research <br> Information Architecture <br> Wireframing <br> Prototyping <br> Visual Communication
             </div>
             <div class="col-sm" id="infoSoft">
-                Communication <br> Problem-Solving <br> Understanding of Design Principles <br> Collaboration  <br> Presentation
+                Communication <br> Problem-Solving <br> Understanding of Design Principles <br> Collaboration <br>
+                Presentation
             </div>
-            <div class="col-sm"id="infoHobbies">
+            <div class="col-sm" id="infoHobbies">
                 Virtual Reality <br> Guitar <br> PC Gaming <br> Spray-Paint Art <br> Cooking <br> Traveling
             </div>
-          </div>
-      </div>
-<br><br><br><br><br><br><br><br><br><br>
-      <script src="script.js"></script>
-  </body>
+        </div>
+    </div>
+    <br><br><br><br><br>
+
+    <div class="container justify-content-center">
+        <p id="adviceTitle"><b>Random Advice</b></p>
+        <div class="col-sm justify-content-center" id="postAdvice"></div>
+
+    </div>
+
+    </div>
+
+
+    <br><br><br><br><br>
+    <button id="gitHub" type="button" onclick="visitPage()"
+        class="btn btn-success btn-lg p-3 text-center">GitHub</button>
+
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <script src="script.js"></script>
+</body>
 
 </html>
