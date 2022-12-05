@@ -2,72 +2,78 @@ html {
     background-color: #212529;
     font-family: 'Raleway', sans-serif, thin;
     font-size: medium;
-  }
-  
-  h1 {
+    color: #b3b3b3;
+}
+
+h1 {
     text-align: left;
-    
-  }
-  
-  img {
+
+}
+
+img {
     margin-left: 100px;
     max-height: 450px;
     border-radius: 300px;
-  
-  }
+    border-style: solid;
+    border-color: #212529;
+    border-width: 10px;
 
-  
-  p {
-   
+}
+
+img:hover {
+
+    border-style: solid;
+    border-color: #212529;
+    border-width: 1px;
+    
+}
+
+
+p {
+
     font-size: 155%;
     font-family: 'Raleway', sans-serif, thin;
     font-weight: 150;
-
+    word-wrap: break-word;
     line-height: 2;
-    
-  }
 
-  body {
+}
+
+body {
 
     background-color: #212529;
-  }
+}
 
-  #name {
-    font-size:4.0rem;
-    font-weight: 200;
-  }
-
-  #nameSean:hover {
-    font-size: 210%;
-    color: rgb(234, 241, 192);
-  }
 
 #tech {
     align-items: center;
     font-size: 155%;
     font-family: 'Raleway', sans-serif, thin;
     font-weight: bold;
-
+    word-wrap: break-word;
 }
 
 #rowTwo {
     font-weight: 150;
     color: #b3b3b3;
+    word-wrap: break-word;
 }
 
 #skills:hover {
-   
+
     border-radius: 20px;
     background-color: #363d44;
+    color: #b3b3b3;
 }
 
 #soft:hover {
     border-radius: 20px;
     background-color: #363d44;
+    color: #b3b3b3;
 }
 
 #hobbies:hover {
-
+    color: #b3b3b3;
     border-radius: 20px;
     background-color: #363d44;
 }
@@ -87,19 +93,34 @@ html {
     background-color: #363d44;
 }
 
-#home:hover {
-    color: rgb(217, 255, 0);
-}
-#resume:hover{
-    color: rgb(217, 255, 0);
-}
-#gallery:hover {
-    color: rgb(217, 255, 0);
-}
-#contact {
-    color: rgb(217, 255, 0);
+
+#gitHub {
+    text-align: center;
+    margin-left: 150px;
+    text-align: center;
+
 }
 
-#navbarNav {
-    color: rgb(217, 255, 0);
+#nameSean {
+    font-size: 2.5rem;
+}
+
+#title {
+    font-size: 1.5rem;
+}
+
+h6 {
+
+    font-weight: 200;
+}
+
+#postAdvice {
+    color: #b3b3b3;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+p {
+
+    color: white;
 }
